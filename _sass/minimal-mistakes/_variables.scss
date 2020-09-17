@@ -65,6 +65,7 @@ $background-color: #fff !default;
 $code-background-color: #fafafa !default;
 $code-background-color-dark: $light-gray !default;
 $text-color: $dark-gray !default;
+$header-text-color: #b5e853;                      /* CUSTOM - "MINIMAL-HACKER" */
 $muted-text-color: mix(#fff, $text-color, 20%) !default;
 $border-color: $lighter-gray !default;
 $form-background-color: $lighter-gray !default;
@@ -91,7 +92,7 @@ $dribbble-color: #ea4c89 !default;
 $facebook-color: #3b5998 !default;
 $flickr-color: #ff0084 !default;
 $foursquare-color: #0072b1 !default;
-$github-color: #171516 !default;
+$github-color: #ffffff;                           /* CUSTOM - "MINIMAL-HACKER" */
 $gitlab-color: #e24329 !default;
 $instagram-color: #517fa4 !default;
 $keybase-color: #ef7639 !default;
@@ -111,14 +112,15 @@ $youtube-color: #bb0000 !default;
 $xing-color: #006567 !default;
 
 /* links */
-$link-color: mix(#000, $info-color, 20%) !default;
-$link-color-hover: mix(#000, $link-color, 25%) !default;
-$link-color-visited: mix(#fff, $link-color, 15%) !default;
+/* $link-color: mix(#000, $info-color, 20%) !default; */
+$link-color: #63C0F5;                             /* CUSTOM - "MINIMAL-HACKER" */
+$link-color-hover: mix(#fff, $link-color, 40%);   /* CUSTOM - "MINIMAL-HACKER" */
+$link-color-visited: mix(#000, $link-color, 30%); /* CUSTOM - "MINIMAL-HACKER" */
 $masthead-link-color: $primary-color !default;
 $masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
 $navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
 
-/* syntax highlighting (base16) */
+/* syntax highlighting (base16)
 $base00: #263238 !default;
 $base01: #2e3c43 !default;
 $base02: #314549 !default;
@@ -134,7 +136,26 @@ $base0b: #c3e88d !default;
 $base0c: #89ddff !default;
 $base0d: #82aaff !default;
 $base0e: #c792ea !default;
-$base0f: #ff5370 !default;
+$base0f: #ff5370 !default;  */
+
+/* CUSTOM - "MINIMAL-HACKER" */
+/* contrast syntax highlighting (base16) */
+$base00: #000000;
+$base01: #242422;
+$base02: #484844;
+$base03: #6c6c66;
+$base04: #918f88;
+$base05: #b5b3aa;
+$base06: #d9d7cc;
+$base07: #fdfbee;
+$base08: #ff6c60;
+$base09: #e9c062;
+$base0a: #ffffb6;
+$base0b: #a8ff60;
+$base0c: #c6c5fe;
+$base0d: #96cbfe;
+$base0e: #ff73fd;
+$base0f: #b18a3d;
 
 /*
    Breakpoints
