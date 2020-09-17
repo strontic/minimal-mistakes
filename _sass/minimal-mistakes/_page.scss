@@ -215,8 +215,8 @@ body {
 }
 
 .page__hero-image {
-  width: 100%;
-  height: auto;
+  max-width: auto;                 /* CUSTOM - "MINIMAL-HACKER" */
+  max-height: 220px;               /* CUSTOM - "MINIMAL-HACKER" */
   -ms-interpolation-mode: bicubic;
 }
 
