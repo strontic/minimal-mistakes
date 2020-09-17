@@ -30,6 +30,7 @@ h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
   color: $header-text-color;              /* CUSTOM - "MINIMAL-HACKER" */
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(181, 232, 83, 0.1), 0 0 10px rgba(181, 232, 83, 0.1);  /* CUSTOM - "MINIMAL-HACKER" */
   font-family: $header-font-family;
   font-weight: bold;
 }
